@@ -26,7 +26,7 @@ end
 def full?(board)
   if board.select {|i| i.is_a?(" ")}
     return false
-  else 
+  else
     true
 end
 
