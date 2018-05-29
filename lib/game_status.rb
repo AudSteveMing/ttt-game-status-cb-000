@@ -39,6 +39,7 @@ WIN_COMBINATIONS.each do |win_combination|
   else false
   end
 end
+end
 
 # Define your WIN_COMBINATIONS constant
 
