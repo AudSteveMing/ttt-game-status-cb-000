@@ -24,7 +24,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board.select {|i| i.is_a?(" ")}
+  if board.detect {|i| i.is_a?(" ")}
     return false
   else
     true
