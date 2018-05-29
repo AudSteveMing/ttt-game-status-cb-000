@@ -24,11 +24,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board.any? {|i| i.is_a?(" ")}
-    return false
-  else
-    true
-  end
+  board.any? {|i| i.is_a?(" ")}
 end
 
 def draw?(board)
