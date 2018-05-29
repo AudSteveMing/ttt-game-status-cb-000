@@ -38,5 +38,5 @@ end
 def winner?(board)
      winning_combo = won?(board)
      winner = winning_combo[0]
-     board[winner]
+    #  board[winner]
 end
